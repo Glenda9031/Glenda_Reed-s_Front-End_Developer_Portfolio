@@ -4,10 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glenda Reed's Front-End Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css"> 
 </head>
 <body>
-    <h1>Project Starter</h1>
+    <header>
+        <div class="logo">
+            <img src="" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle-navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Start of Intro Section -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">Hi I am <strong>Glenda Reed</strong></h1>
+        <p class="section__subtitle section__subtitle--intro">Front-End Dev</p>
+        <img src="images/Glenda-Intro=picture4.jpg" alt="picture of Glenda Reed smiling">
+    </section>
+    <!-- End of Intro Section -->
+
+    <!-- Start of My Services Section -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I Do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Front-End Development</h3>
+                <p>Front-end/software developer specializing in creating and designing the user interface (UI) and user experience (UX) of websites and web applications using HTML, CSS, and JavaScript. As a front-end developer, I ensure that the visual and interactive aspects of a website or application are user-friendly, aesthetically pleasing, and functionally efficient.</p>
+            </div><!-- Close service -->
+        </div><!-- Close services -->
+
+        <div class="services">
+            <div class="service">
+                <h3>E-Commerce</h3>
+                <p>As an eCommerce developer, I am responsible for the technical aspects of an online store, such as its performance, scalability, and security. In addition, the skills that I learned as an eCommerce developer also allowed me to be able to work with a store owner or manager to ensure that the store meets their business needs.</p>
+            </div><!-- Close service -->
+        </div><!-- Close services -->
+
+        <div class="services">
+            <div class="service">
+                <h3>Wordpress</h3>
+                <p>As a WordPress developer, I specialize in building websites with WordPress using my knowledge of HTML, CSS, JavaScript and PHP to build a custom website for a client.</p>
+            </div><!-- Close service -->
+        </div><!-- Close services -->
+
+        <a href="#work" class="btn">See My Work</a>
+        </section>
+        <!-- End of My Services Section -->
+
+        <!-- Start of About Me Section -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I Am</h2>
+            <p class="section__subtitle section__subtitle--about">Entry Level Front-End Developer based out of Chicago, Illinois</p>
+
+            <div class="about-me__body">
+                <p>Entry Level Front-End Developer that creates websites, web applications, and mobile applications. I can design and develop user interfaces using HTML, CSS, JavaScript, React, Angular and Vue, and ensure that the applications run smoothly across multiple platforms. I have an eye for detail and can work closely with other developers and designers to ensure successful project delivery with an aptitude for debugging.</p>
+            </div>
+
+            <img src="images/glenda-intro-picture2.jpg" alt="another picture of Glenda Reed">
+        </section>
+        <!-- End of About Me Section -->
+
+        <!-- Start of My Work Section -->
+        <section class="my-work" id="work">
+            <h2 class="section__title">My Work</h2>
+            <p class="section__subtitle">A selection of my range of work</p>
+
+            <div class="portfolio">
+                <a href="#" class="portfolio__item"><img src="" alt="" class="portfolio__img"></a>
+                <a href="#" class="portfolio__item"><img src="" alt="" class="portfolio__img"></a>
+                <a href="#" class="portfolio__item"><img src="" alt="" class="portfolio__img"></a>
+                <a href="#" class="portfolio__item"><img src="" alt="" class="portfolio__img"></a>
+                <a href="#" class="portfolio__item"><img src="" alt="" class="portfolio__img"></a>
+                <a href="#" class="portfolio__item"><img src="" alt="" class="portfolio__img"></a>
+            </div>
+        </section>
+        <!-- End of My Work Section -->
+
+        <!-- Start of Footer Section -->
+        <footer>
+            <a href="#" class="footer__link">emailadress</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a href="" class="social-list__link"></a></li>
+                <li class="social-list__item"><a href="" class="social-list__link"></a></li>
+                <li class="social-list__item"><a href="" class="social-list__link"></a></li>
+                <li class="social-list__item"><a href="" class="social-list__link"></a></li>
+            </ul>
+        </footer>
+
+
+
 <script src="script.js"></script>
 </body>
 </html>
