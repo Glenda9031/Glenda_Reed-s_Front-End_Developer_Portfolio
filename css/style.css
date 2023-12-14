@@ -11,7 +11,7 @@
     --fw-reg: 300;
     --fw-bold: 900;
     
-    --clr-light: #fff;
+    --clr-light: #D3D3D3;
     --clr-dark: #303030;
     --clr-accent: #D8BFD8;
     
@@ -397,11 +397,13 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
     grid-template-rows: repeat(2, 1fr);
+    
 }
 
 .portfolio__item {
     background-color: var(--clr-accent);
     overflow: hidden;
+    
 }
 
 .portfolio__img {
