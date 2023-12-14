@@ -469,7 +469,7 @@ header {
 /* Individual Portfolio Styles */
 
 .portfolio-item-individual {
-    padding: 0 2em 2em;
+    /*padding: 0 .5em .5em;*/
     max-width: 62.5rem;
     margin: 0 auto;
 }
@@ -478,9 +478,19 @@ header {
     max-width: 37.5rem;
     margin-left: auto;
     margin-right: auto;
+    line-height: 1;
 }
 
+.portfolio-item-title,
+.portfolio-item-subtitle {
+    font-weight: var(--fw-bold);
+}
 
+.portfolio-item-img {
+    height: 6.25rem;
+    width: 6.25rem;
+    margin-left: 11em;
+}
 
 
 
