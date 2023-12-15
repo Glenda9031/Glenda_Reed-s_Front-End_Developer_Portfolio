@@ -13,7 +13,7 @@
     
     --clr-light: #D3D3D3;
     --clr-dark: #303030;
-    --clr-accent: #D8BFD8;
+    --clr-accent: #9999ff;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -220,7 +220,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--clr-dark);
+    background: var(--clr-accent);
     width: 2em;
     height: 0.1875rem;
     border-radius: 1em;
@@ -478,7 +478,7 @@ header {
     max-width: 37.5rem;
     margin-left: auto;
     margin-right: auto;
-    line-height: 1;
+    line-height: 1.6;
 }
 
 .portfolio-item-title,
